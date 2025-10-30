@@ -1,0 +1,162 @@
+body {
+    background-color: #f0f2f5; 
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+}
+.cv-container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden; 
+    padding: 0;
+}
+main {
+    margin: 0;
+}
+.left-column {
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+    padding: 40px 30px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 5px solid #3498db; 
+    object-fit: cover; 
+}
+.left-column .section-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db; 
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.contact-item svg {
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0; 
+    color: #3498db;
+}
+
+.competence-subtitle {
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.skills-list, .interest-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li, .interest-list li {
+    background-color: #34495e; 
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.lang-skill {
+    margin-bottom: 15px;
+}
+
+.progress {
+    height: 10px;
+    background-color: #566573;
+}
+.progress-bar {
+    background-color: #3498db;
+}
+
+/* --- Colonne de Droite (Blanche) --- */
+.right-column {
+    background-color: #ffffff;
+    padding: 50px 40px;
+}
+
+.header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #3498db;
+}
+
+.nom {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.statut {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #3498db;
+    letter-spacing: 1px;
+}
+
+.section {
+    margin-bottom: 35px;
+}
+
+.right-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.parcours-item {
+    margin-bottom: 20px;
+}
+
+.parcours-annee {
+    font-weight: 700;
+    color: #3498db;
+    margin-bottom: 0;
+}
+
+.parcours-diplome {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.parcours-lieu {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 0;
+}
+
+.experience-list, .project-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-list li, .project-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.project-subtitle {
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #34495e;
+}
